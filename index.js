@@ -5,18 +5,23 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-const properties = [];
-
 function promptProperty() {
-    rl.question('Digiteou "SAIR" para finalizar: ', (property) => {
-        if (property.toUpperCase() === 'SAIR') {
-            console.log('\nPropriedades ordenadas de A-Z:');
-            properties.sort();
-            properties.forEach(prop => console.log(prop));
+    const properties = [];
+
+    rl.question('Digite ou "SAIR" para finalizar: ', (property) => {
+        try {
+            if (property.toUpperCase() === 'SAIR') {
+                console.log('\nPropriedades ordenadas de A-Z com sucesso');
+                properties.sort();
+                properties.forEach(prop => console.log(prop));
+                rl.close();
+            } else {
+                properties.push(property);
+                promptProperty();
+            }
+        } catch (error) {
+            console.error('Ocorreu um erro na sua solicitação', error.message);
             rl.close();
-        } else {
-            properties.push(property);
-            promptProperty();
         }
     });
 }
