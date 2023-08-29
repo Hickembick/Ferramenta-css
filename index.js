@@ -8,7 +8,7 @@ const rl = readline.createInterface({
 const properties = [];
 
 function promptProperty() {
-    rl.question('Digite uma propriedade de CSS (ou "SAIR" para finalizar): ', (property) => {
+    rl.question('Digiteou "SAIR" para finalizar: ', (property) => {
         if (property.toUpperCase() === 'SAIR') {
             console.log('\nPropriedades ordenadas de A-Z:');
             properties.sort();
