@@ -1,5 +1,4 @@
-# Ferramenta-css 
-# Ferramenta de Ordenação de Propriedades CSS 🛠️
+# Ferramenta-css
 
 Bem-vindo(a) ao projeto **Ferramenta de Ordenação de Propriedades CSS**!
 Este é um projeto desenvolvido em Node.js que oferece uma ferramenta simples e eficiente para auxiliar no trabalho com propriedades CSS.
@@ -10,14 +9,14 @@ Este projeto foi criado como requisito do curso de Formação Web Dev Fullstack 
 
 Com essa ferramenta, é possível inserir uma lista de propriedades e obter elas ordenas alfabeticamente visualizando o resultado no terminal.
 
-## 🚀 Tecnologias
+## Tecnologias
 
 Desenvolvido com as seguintes tecnologias:
 
 - [Node.js](https://nodejs.org/en/)
 - [readline-sync](https://www.npmjs.com/package/readline-sync)
 
-## 📍 Executando Localmente
+## Executando Localmente
 
 **Certifique-se de ter o Node.js instalado em seu sistema.**
 - [NodeJS - Download](https://nodejs.org/pt-br/download)
@@ -44,7 +43,7 @@ Inicie o servidor:
 npm start OU npm run start
 
 Agora aproveite o projeto!
-📄 Documentação da API
+ Documentação da API
 Ordenar Propriedades CSS em Ordem Alfabética
 bash
 npm start
@@ -77,7 +76,7 @@ background-color
 font-family
 padding
 
-Feito com 💜 por JessicaHickembick
+Feito por JessicaHickembick
 
 📖 Referências
 Documentação do Node.js (https://nodejs.org/en/docs)
