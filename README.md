@@ -17,13 +17,15 @@ Desenvolvido com as seguintes tecnologias:
 
 ## Executando Localmente
 
-**Certifique-se de ter o Node.js instalado em seu sistema.**
-- [NodeJS - Download](https://nodejs.org/pt-br/download)
+**Instalação:**
 
-**Clone o projeto:**
+1. Certifique-se de ter o Node.js instalado em seu sistema. Você pode baixá-lo em [NodeJS - Download](https://nodejs.org/pt-br/download).
 
-```bash
-git clone https://github.com/Hickembick/Ferramenta-css.git
+2. Clone o projeto:
+
+   ```bash
+   git clone https://github.com/Hickembick/Ferramenta-css.git
+
 
 Entre no diretório do projeto:
 
@@ -33,9 +35,10 @@ Instale as dependências:
 
 npm start
 
-Agora você pode inserir as propriedades CSS e obter a lista ordenada. Para encerrar a inserção, basta digitar "SAIR" quando solicitado.
+Agora você pode inserir as propriedades CSS e obter a lista ordenada. 
+Para encerrar a inserção, basta digitar "SAIR" quando solicitado.
 
-Exemplo de Uso
+**Exemplo de Uso**
 
 Entrada - Inserir uma lista de propriedades CSS:
 
@@ -66,4 +69,5 @@ Feito por JessicaHickembick
 📖 Referências
 
 Documentação do Node.js
+
 
