@@ -1,21 +1,19 @@
+# Ferramenta de Ordenação de Propriedades CSS
 
-# Ferramenta-css
-
-Bem-vindo(a) ao projeto **Ferramenta de Ordenação de Propriedades CSS**!
-Este é um projeto desenvolvido em Node.js que oferece uma ferramenta simples e eficiente para auxiliar no trabalho com propriedades CSS.
+Bem-vindo(a) ao projeto **Ferramenta de Ordenação de Propriedades CSS**! Este é um projeto desenvolvido em Node.js que oferece uma ferramenta simples e eficiente para auxiliar no trabalho com propriedades CSS.
 
 Este projeto foi criado como requisito do curso de Formação Web Dev Fullstack - Resilia.
 
- O contexto para a utilização da ferramenta é: Uma empresa de desenvolvimento de software precisa ordenar  uma lista de propriedades de CSS (ex: background-color, font-size, text-align) de A-Z.
+O contexto para a utilização da ferramenta é: Uma empresa de desenvolvimento de software precisa ordenar uma lista de propriedades de CSS (ex: background-color, font-size, text-align) de A-Z.
 
-Com essa ferramenta, é possível inserir uma lista de propriedades e obter elas ordenas alfabeticamente visualizando o resultado no terminal.
+Com essa ferramenta, é possível inserir uma lista de propriedades e obtê-las ordenadas alfabeticamente, visualizando o resultado no terminal.
 
 ## Tecnologias
 
 Desenvolvido com as seguintes tecnologias:
 
 - [Node.js](https://nodejs.org/en/)
-- [readline-sync](https://www.npmjs.com/package/readline-sync)
+- [readline](https://nodejs.org/api/readline.html) (módulo Node.js para interação com o terminal)
 
 ## Executando Localmente
 
@@ -24,48 +22,32 @@ Desenvolvido com as seguintes tecnologias:
 
 **Clone o projeto:**
 
-- Com HTTPS:
-bash
-git clone https://github.com/Hickembick/Ferramenta-css.git
- 
- - Com chave SSH:
+```bash
 git clone https://github.com/Hickembick/Ferramenta-css.git
 
- - Entre no diretório do projeto:
-cd Ferramenta-CSS
+Entre no diretório do projeto:
 
- - Abra com VSCode (opcional):
-code .
+cd Ferramenta-css
 
- - Instale as dependências:
-npm install
+Instale as dependências:
 
- - Inicie o servidor:
-npm start OU npm run start
-
- - Agora aproveite o projeto!
-
-Documentação da API
-Ordenar Propriedades CSS em Ordem Alfabética
-bash
 npm start
 
- - Parâmetro:
-Propriedades -	array	Obrigatório (Lista de Propriedades CSS a serem ordenadas.)
-SAIR -	string	(Obrigatório. Encerra a entrada.)
+Agora você pode inserir as propriedades CSS e obter a lista ordenada. Para encerrar a inserção, basta digitar "SAIR" quando solicitado.
 
- - Entrada - Inserir uma lista de propriedades CSS:
-Digite uma propriedade CSS ou "SAIR" para encerrar:
+Exemplo de Uso
 
 Entrada - Inserir uma lista de propriedades CSS:
+
 Digite uma propriedade CSS (ou "SAIR" para encerrar):
-padding   
+padding
 [enter]
 
 Digite uma propriedade CSS (ou "SAIR" para encerrar):
 background-color
 [enter]
 
+Digite uma propriedade CSS (ou "SAIR" para encerrar):
 font-family
 [enter]
 
@@ -73,16 +55,15 @@ SAIR
 [enter]
 
 Saída - Propriedades ordenadas:
+
 background-color
 font-family
 padding
 
-E no final ele mostra a lista ordenada no Terminal
 
 Feito por JessicaHickembick
 
 📖 Referências
-Documentação do Node.js (https://nodejs.org/en/docs)
 
-
+Documentação do Node.js
 
