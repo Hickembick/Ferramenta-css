@@ -19,20 +19,23 @@ Desenvolvido com as seguintes tecnologias:
 
 **Instalação:**
 
-1. Certifique-se de ter o Node.js instalado em seu sistema. Você pode baixá-lo em [NodeJS - Download](https://nodejs.org/pt-br/download).
+Antes de executar o projeto, certifique-se de ter o Node.js instalado em seu sistema. Você pode baixá-lo em [NodeJS - Download](https://nodejs.org/pt-br/download).
 
-2. Clone o projeto:
-
-   ```bash
-   git clone https://github.com/Hickembick/Ferramenta-css.git
+Clone o projeto para o seu diretório local:
 
 
 Entre no diretório do projeto:
+```bash
+git clone https://github.com/Hickembick/Ferramenta-css.git
 
 cd Ferramenta-css
 
-Instale as dependências:
+Em seguida, instale as dependências usando o seguinte comando:
+npm install
 
+Executando o Projeto:
+
+Agora você pode iniciar o projeto usando:
 npm start
 
 Agora você pode inserir as propriedades CSS e obter a lista ordenada. 
